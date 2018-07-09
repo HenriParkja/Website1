@@ -334,7 +334,7 @@
                     </div>
                 </div>
 
-                <!-- ---------------------------------SECOND ROW------------------------- -->
+                <!-- Second row -->
 
                 <div class="row">
                     <div class="col-md-3">
@@ -645,10 +645,5 @@
             document.getElementById("uudised-background3").style.display = 'block';
         }
     </script>
-
-
-
-
 </body>
-
 </html>

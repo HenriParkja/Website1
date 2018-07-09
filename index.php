@@ -35,13 +35,10 @@
             window.location="http://www.google.com";
         }
     </script>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <div class="page">
-
         <nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top">
 
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -54,7 +51,6 @@
 
             <!-- Get logo -->
             <a class="page-scroll navbar-brand" href="#page-top"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/MaagilineRuum_logopng.png"></a>
-
 
         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -73,7 +69,6 @@
                   <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
-
         </nav> <!-- End navbar -->
 
     <!-- Add a layer behind navbar -->
@@ -82,10 +77,8 @@
     <!-- Wrappers for background image -->
     <div class="wrapper" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/img/stars2_cropped-min.jpg');">
     </div>
-
     <div class="wrapper_small" style="background: url('<?php echo get_bloginfo('template_directory'); ?>/img/stars2_cropped-min.jpg');">
     </div>
-
 
     <!-- Text for homepage -->
     <div class="parenttext">
@@ -275,7 +268,6 @@
 
         <!-- Add a break and header background for section heading -->
         <div class="vaheosa"></div>
-
 
         <!-- Start new section of subcategory of books -->
         <section id="raamatud">
@@ -604,7 +596,6 @@
             </div>
         </section>
     </div> <!-- End mobile version -->
-
 
         <section id="footer">
             <div class="container">

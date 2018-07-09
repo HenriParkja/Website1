@@ -1,0 +1,684 @@
+/*
+Theme Name: Proov2
+Theme URI:
+Description: Testing phase
+Version: 1.0
+Author: Henri
+Author URI:
+*/
+
+
+/* -----TABLE OF CONTENTS----- */
+
+/*
+    1. GLOBAL STYLES
+    2. NAVBAR
+    3. HEADER
+    4. MAIN BODY
+    5. FOOTER
+*/
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*---------------GLOBAL STYLES------------------ */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+h1, h2, h3, h4, h5, a, p {
+    font-family: Rosario;
+}
+
+p {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*--------------------NAVBAR-------------------- */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+
+.scrolled-nav {
+  height: 50px;
+  line-height: 60px;
+}
+
+.counter {
+    background: black;
+    color: #fff;
+    height: 20px;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    width: 20px;
+}
+
+.navbar {
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 22.5px;
+    z-index: 9999999999999;
+}
+
+.navbar-default {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+    color: red;
+}
+
+.nav a:active {
+    background-color: transparent;
+    box-shadow: none;
+    color: red;
+}
+
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        background-color: #172758;
+        border: none;
+        border-radius: 3px;
+        display: block;
+    }
+}
+
+ ul.nav li.dropdown:hover > ul.dropdown-menu a {
+    border: none;
+    box-shadow: none;
+    color: #dbdbdb;
+    font-size: 16px;
+ }
+
+ .dropdown-menu {
+   right: -31%;
+   text-align: center;
+ }
+
+
+.navbar-default .navbar-nav > li > a {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Rosario';
+    font-size: 18px;
+    font-weight: 570;
+    line-height: 18px;
+    margin-top: 5px;
+    text-shadow: none;
+    z-index: 9999;
+}
+
+.navbar-nav li a:hover, .navbar-nav > .active > a, .navbar-nav > .active > a:active, .navbar-nav > .active > a:focus {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 2px;
+    box-shadow: none !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.navbar-nav li.social a {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.navbar-nav li.social a:hover {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    background-color: #172758 !important;
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover {
+    background-color: #113269 !important;
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:active, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    background-color: #113269 !important;
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-default .dropdown-menu, .navbar-default .dropdown-menu:hover, .navbar-default .dropdown-menu:active {
+    background-color: #172758;
+    border: none;
+}
+
+
+.navbar-brand img {
+    height: 68px;
+    margin-top: -22.5px;
+}
+
+.blurryscroll {
+	-moz-transition: height .5s ease-in-out;
+	-webkit-transition: height .5s ease-in-out;
+	background-color: #172758;
+	height: 100px;
+	opacity: 0.7;
+	overflow: hidden;
+	position: fixed;
+	transition: height .5s ease-in-out;
+	width: 100%;
+	z-index: 999999999;
+ }
+
+ .opacity {
+ 	-moz-transition: height .5s ease-in-out;
+ 	-webkit-transition: height .5s ease-in-out;
+ 	opacity: 1 !important;
+ 	transition: height .5s ease-in-out;
+  }
+
+
+
+@media (max-width: 769px) {
+    #bs-example-navbar-collapse-1 {
+    	background-color: #172758;
+    	border-top: none;
+    	min-width: 120px;
+    	position: relative;
+    	z-index: 99999999999;
+    }
+
+}
+
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*--------------------HEADER-------------------- */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+.page {
+	height: 100vh;
+	position: absolute;
+	width: 100%;
+}
+
+.parenttext {
+	color: white;
+	margin: 155px auto 0 auto;
+	max-width: 100%;
+	position: relative;
+	width: 67% !important;
+}
+
+.parenttext2 {
+	color: white;
+	display: none;
+	margin: 100px auto 0 auto;
+	width: 95%;
+}
+
+@media (max-width: 400px) {
+    .parenttext {
+        display: none ;
+    }
+
+    .parenttext2 {
+        display: block !important;
+        margin-top: 120px;
+    }
+
+    .parenttext2 p {
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .lõik1 {
+        position: relative;
+    }
+
+    .lõik2 {
+        margin-left: 70px;
+        position: relative;
+    }
+
+    .lõik3 {
+        margin-left: 120px;
+        position: relative;
+    }
+
+    .lõik4 {
+        margin-bottom: 20px;
+        margin-left: 210px;
+        position: relative;
+    }
+
+    #uudised {
+        display: none;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 948px) {
+    .parenttext {display: none;}
+
+    .parenttext2 {
+    	display: block !important;
+    	margin-top: 120px;
+    }
+
+	.parenttext2 p {
+		color: white;
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+    .lõik1 {position: relative;}
+
+    .lõik2 {
+    	margin-left: 70px;
+    	position: relative;
+    }
+
+    .lõik3 {
+    	margin-left: 120px;
+    	position: relative;
+    }
+
+    .lõik4 {
+    	margin-bottom: 20px;
+    	margin-left: 210px;
+    	position: relative;
+    }
+
+    #uudised {display: none;}
+}
+
+.parenttext p {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.text2 {
+	line-height: 30px;
+	margin-left: 110px;
+}
+
+.text3 {
+	line-height: 30px;
+	margin-left: 178px;
+}
+
+.text4 {
+	line-height: 30px;
+	margin-left: 342px;
+	margin-top: 20px;
+}
+
+	.text4 p {font-size: 22px;}
+
+.wrapper, .wrapper_small {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	display: block;
+	height: 120vh;
+	position: absolute;
+	width: 100%;
+}
+
+.wrapper_small {
+	background-attachment: scroll;
+	display: none;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        display: none;
+    }
+    .wrapper_small {
+        display: block;
+    }
+}
+
+.wrapper img {
+	background-repeat: no-repeat;
+	object-fit: cover;
+	position: fixed;
+	transform: scale(1);
+	transition: 10s ease-in-out;
+	width: 100%;
+}
+
+.wrapper img:hover {
+	transform: scale(1.2);
+	transition: 15s ease-in-out;
+}
+
+.text {
+	align-items: center;
+	background: none;
+	color: white;
+	font-family: Rosario;
+	justify-content: center;
+	margin-left: 215px;
+	margin-top: 195px;
+	position: absolute;
+}
+
+.text p {
+	font-size: 36px;
+	font-weight: 590;
+	line-height: 100%;
+}
+
+p small {font-size: 28px;}
+
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*--------------------MAIN BODY----------------- */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+
+
+@media (min-width: 768px) and (max-width: 1530px) {
+    #peagi-ilmumas .col-sm-3 {
+        width: 310px;
+    }
+
+    #peagi-ilmumas .col-sm-9 {
+        height: auto;
+        overflow: hidden;
+        width: 60%;
+    }
+
+    .wrapper img {
+        background-attachment:scroll;
+    }
+}
+
+#uudised img {
+    height: 300px;
+    margin-top: 15px;
+}
+
+#uudised {
+	color: white;
+	margin: -80px auto 50px auto;
+	position: relative;
+	width: 100%;
+	z-index: 999;
+ }
+
+#uudised .container {
+	display: block;
+	margin-top: 50px !important;
+	margin: auto;
+	padding: 0
+	width: 80%;
+}
+
+#uudis img {
+    margin-top: 150px;
+    max-width: 100%;
+}
+
+#uudis2 {
+    color: white;
+    margin-top: 220px;
+}
+
+.uudised-background {
+	background-color: #172758;
+	height: 420px;
+	margin-left: -12.5%
+	margin-top: -450px;
+	opacity: 0.4;
+	position: relative;
+	width: 125%;
+	z-index: -999;
+}
+
+.uudised-background2 {
+	background-color: #172758;
+	height: 420px;
+	margin-left: -12.5%;
+	margin-top: -360px;
+	opacity: 0.4;
+	position: relative;
+	width: 125%;
+	z-index: -999;
+}
+
+.uudised-background3 {
+	background-color: #172758;
+	height: 420px;
+	margin-left: -12.5%;
+	margin-top: -420px;
+	opacity: 0.4;
+	position: relative;
+	width: 125%;
+	z-index: -999;
+}
+
+#uudised .col-lg-4, #uudised .col-sm-3 {
+    margin-top: 30px;
+    padding: 70px;
+}
+
+#uudised .white {
+    color: #04c9b6;
+    font-size: 27px;
+    width: 200px !important;
+}
+
+#uudised #text {
+    margin-top: 160px;
+}
+
+#uudised .btn-secondary {
+    background-color: #ffbd37 !important;
+    border: none;
+    color: white;
+    float: right;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 500;
+    border: 1px solid #ffbd37;
+    transition: background-color .2s, color .2s;
+}
+
+#uudised .btn-secondary:hover {
+    background: transparent !important;
+    color: white;
+    border: 1px solid #ffbd37;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: background-color .2s, color .2s;
+}
+
+
+#raamatud a.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffbd37 !important;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 500;
+    border: 1px solid #ffbd37;
+    width: 70px;
+    transition: background-color .2s, color .2s;
+}
+
+#raamatud a.btn:hover {
+    background: transparent !important;
+    color: #ffbd37;
+    border: 1px solid ##ffbd37;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: background-color .2s, color .2s;
+}
+
+#raamatud {
+    position: relative;
+    z-index: 99999999;
+    background-color: white;
+    height: 1050px;
+}
+
+
+#uuemad {
+    position: absolute;
+    top: -80px;
+}
+
+#psühholoogia_vaimsus, #biograafia_memuaarid {
+    position: absolute;
+    top: -158px;
+}
+
+#raamatud img {
+    height: 300px;
+    display: block;
+    margin: 70px auto 40px auto;
+}
+
+#raamatud .col-md-3 h4 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#raamatud .col-md-3 h5 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+#raamatud h2 {
+    margin-top: -45px;
+    color: white;
+    font-size: 24px;
+}
+
+.vaheosa {
+    margin-top: -100px;
+    height: 60px;
+    opacity: 0.8;
+    background-color: #222d4f;
+    position: relative;
+    z-index: 999999;
+}
+
+@media (max-width: 1367px) {
+    #last, .wrapper {
+        background-attachment: scroll;
+    }
+}
+
+#tsitaat1, #tsitaat2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+    z-index: 99999;
+}
+
+#tsitaat2 p {
+    color: white !important;
+
+}
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*--------------------FOOTER-------------------- */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+
+#footer {
+    background-color: #172758;
+    color: white;
+    height: 70px;
+    position: relative;
+    z-index: 999;
+}
+
+#footer .col-lg-6, #footer2 .col-lg-6 {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .largeScreen {
+        display: block;
+    }
+    .smallScreen {
+        display: none;
+    }
+
+    #footer2 {
+        display: none;
+    }
+
+    #footer {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .largeScreen {
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+    }
+
+
+
+    #footer2 {
+       background-color: #172758;
+       color: white;
+       display: block;
+       height: 70px;
+       left: 0;
+       margin-top: 2900px;
+       position: absolute;
+       position: relative;
+       right: 0;
+       z-index: 999;
+    }
+
+
+
+    #footer {
+        display: none;
+    }
+}
